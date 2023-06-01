@@ -14,7 +14,7 @@ public class HelloController {
 public ModelAndView helloboot() {
 	ModelAndView mv = new ModelAndView();
 	mv.addObject("model", "스프링부트를 시작합니다");
-	mv.addObject("model2", "스프링부트를 시작합니다2");
+	mv.addObject("model3", "스프링부트를 시작합니다3");
 	mv.setViewName("hello");
 	return mv;
 }
